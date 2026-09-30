@@ -1,0 +1,8 @@
+.checklist { max-width: 500px; margin: 40px auto; font-family: sans-serif; }
+.add { display: flex; gap: 8px; margin-bottom: 20px; }
+.add input { flex: 1; padding: 8px; }
+.list { list-style: none; padding: 0; }
+.item { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid #ddd; }
+.text { flex: 1; }
+.done { text-decoration: line-through; color: gray; }
+button { padding: 6px 10px; cursor: pointer; }
